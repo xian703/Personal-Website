@@ -1,0 +1,48 @@
+---
+title: ""
+---
+
+<div class="hero-section">
+<img src="images/profile.jpg" alt="Profile photo of Xian Wu" />
+<div class="hero-text">
+<h1>Xian Wu</h1>
+<p class="tagline">MSPH Student &middot; Biostatistics &middot; Rollins School of Public Health, Emory University</p>
+<p>Welcome! I am a master's student in Biostatistics at Emory University with a background in economics and applied mathematics. My research sits at the intersection of Bayesian modeling, spatial statistics, and electronic health records, with a focus on developing rigorous statistical methods for real-world public health and clinical data.</p>
+<div class="badge-row">
+<span class="skill-badge">Bayesian Modeling</span>
+<span class="skill-badge">Causal Inference</span>
+<span class="skill-badge">Spatial Statistics</span>
+<span class="skill-badge">EHR Analysis</span>
+<span class="skill-badge">R &amp; Python</span>
+</div>
+</div>
+</div>
+
+<div class="section-label"><span>Quick Facts</span></div>
+
+<div class="info-grid">
+<div class="info-card">
+<h3>&#127891; Education</h3>
+<ul>
+<li><strong>MSPH, Biostatistics</strong> &mdash; Emory University (expected Jun. 2026)</li>
+<li><strong>B.A., Economics</strong> &mdash; Southwest University, 2024</li>
+<li><strong>B.Sc., Mathematics &amp; Applied Mathematics</strong> &mdash; Southwest University, 2024</li>
+</ul>
+</div>
+<div class="info-card">
+<h3>&#128269; Research Interests</h3>
+<ul>
+<li>Bayesian hierarchical &amp; geostatistical modeling</li>
+<li>Causal inference &amp; longitudinal models</li>
+<li>EHR outcome modeling &amp; survival analysis</li>
+<li>Spatial statistics &amp; probabilistic modeling</li>
+</ul>
+</div>
+</div>
+
+<div class="section-label"><span>Recent News</span></div>
+
+- **Dec. 2025** &mdash; Joined the Canon Medical PIQE multi-center cardiac CT imaging collaboration
+- **Jul. 2025** &mdash; Started spatial-temporal analysis project (HUMID Atlanta) at Emory University
+- **2025** &mdash; Paper published in *Journal of Theoretical and Applied Electronic Commerce Research*
+- **Sept. 2024** &mdash; Started MSPH in Biostatistics at Emory University, Rollins School of Public Health

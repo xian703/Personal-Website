@@ -1,0 +1,25 @@
+name: "xian-wu"
+output_dir: docs
+navbar:
+  title: "Xian Wu"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Projects"
+      href: projects.html
+    - text: "CV"
+      href: cv.html
+  right:
+    - text: "GitHub"
+      href: "https://github.com/xian703"
+    - text: "LinkedIn"
+      href: "https://www.linkedin.com/in/xian-wu-b05426333/"
+    - text: "Email"
+      href: "mailto:xwu389@emory.edu"
+
+output:
+  html_document:
+    theme: flatly
+    css: style.css
+    includes:
+      in_header: header.html

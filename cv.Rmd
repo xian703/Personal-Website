@@ -1,0 +1,132 @@
+---
+title: "Curriculum Vitae"
+---
+
+<p style="color:#6c757d; margin-bottom:2rem;">
+Download a PDF version:
+<a href="files/cv.pdf" target="_blank"><i class="fas fa-file-pdf"></i> cv.pdf</a>
+&nbsp;&middot;&nbsp; xwu389@emory.edu &nbsp;&middot;&nbsp; +1 (470) 298-5725
+</p>
+
+<div class="cv-section">
+<div class="section-label"><span>Education</span></div>
+
+<div class="cv-entry">
+<div class="cv-entry-left">
+<h4>Master of Science in Public Health (MSPH), Biostatistics</h4>
+<span class="institution">Emory University, Rollins School of Public Health &mdash; Atlanta, GA</span>
+</div>
+<div class="cv-entry-right">Sept. 2024 &ndash; Jun. 2026 (Expected)</div>
+</div>
+
+<div class="cv-entry">
+<div class="cv-entry-left">
+<h4>Bachelor of Arts in Economics &nbsp;|&nbsp; Bachelor of Science in Mathematics and Applied Mathematics</h4>
+<span class="institution">Southwest University &mdash; Chongqing, China</span>
+<br><small style="color:#6c757d">Major GPA: 3.91/5.00 &nbsp;&middot;&nbsp; Minor GPA: 3.43/5.00</small>
+</div>
+<div class="cv-entry-right">Sept. 2020 &ndash; Jun. 2024</div>
+</div>
+</div>
+
+<div class="cv-section">
+<div class="section-label"><span>Technical Skills</span></div>
+
+| Category | Tools |
+|---|---|
+| **Programming** | R, Python, SAS, MATLAB, SQL |
+| **Tools & Platforms** | ArcGIS Pro, Stan, GitHub, LaTeX, Jupyter Notebook / Colab, PyTorch |
+
+</div>
+
+<div class="cv-section">
+<div class="section-label"><span>Research Experience</span></div>
+
+<div class="cv-entry">
+<div class="cv-entry-left">
+<h4>Multi-center Cardiac CT Imaging Study (Canon Medical PIQE)</h4>
+<span class="institution">Research Collaboration</span>
+<br><small>Supported quantitative analysis for a multi-center RCT evaluating deep learning CT reconstruction. Harmonized imaging datasets and built pipelines to compare image quality metrics and hemodynamic parameters (MBF, CFR) across algorithms and radiation dose protocols.</small>
+</div>
+<div class="cv-entry-right">Dec. 2025 &ndash; Present</div>
+</div>
+
+<div class="cv-entry">
+<div class="cv-entry-left">
+<h4>HUMID Atlanta: High-Resolution Meteorological Exposure Modeling</h4>
+<span class="institution">Emory University</span>
+<br><small>Integrated multi-source spatiotemporal datasets across 5 Atlanta metro counties (120,000+ daily records at 1km resolution). Implemented a hybrid Bayesian geostatistical downscaler with Random Forest via ensembleDownscaleR to bias-correct temperature exposures.</small>
+</div>
+<div class="cv-entry-right">Jul. 2025 &ndash; Present</div>
+</div>
+
+<div class="cv-entry">
+<div class="cv-entry-left">
+<h4>ED Benchmark: Hospitalization Outcome Analysis Using EHR</h4>
+<span class="institution">Emory University</span>
+<br><small>Built reproducible pipelines for ICD code mapping and temporal alignment. Applied logistic regression and GEE models to assess associations between preadmission diagnoses and adverse inpatient outcomes.</small>
+</div>
+<div class="cv-entry-right">Mar. 2025 &ndash; May. 2025</div>
+</div>
+
+<div class="cv-entry">
+<div class="cv-entry-left">
+<h4>Co-occurring Token Framework for ICU Risk Monitoring and ARDS Prediction</h4>
+<span class="institution">Emory University</span>
+<br><small>Prepared multi-site ICU longitudinal datasets and engineered temporal features. Implemented sequence construction and representation learning in Python/PyTorch; assessed model interpretability via token attention patterns.</small>
+</div>
+<div class="cv-entry-right">Nov. 2024 &ndash; Feb. 2025</div>
+</div>
+
+<div class="cv-entry">
+<div class="cv-entry-left">
+<h4>Weather and Mountain Fire Prediction Using BP Neural Network and ARMA</h4>
+<span class="institution">Southwest University</span>
+<br><small>Collected 280,000+ climate records; built BP neural networks and ARIMA models in Python/MATLAB. Achieved over 90% weather prediction accuracy and identified 2022 wildfire risk events.</small>
+</div>
+<div class="cv-entry-right">Apr. 2023 &ndash; Jun. 2023</div>
+</div>
+</div>
+
+<div class="cv-section">
+<div class="section-label"><span>Professional Experience</span></div>
+
+<div class="cv-entry">
+<div class="cv-entry-left">
+<h4>Product Manager Intern &mdash; Intelligent Vehicle Division</h4>
+<span class="institution">iFLYTEK Co., Ltd.</span>
+<br><small>Supported requirement writing for speech interaction modules; coordinated across R&amp;D, testing, and client teams; assisted with validation of interaction logic.</small>
+</div>
+<div class="cv-entry-right">Mar. 2024 &ndash; May. 2024</div>
+</div>
+
+<div class="cv-entry">
+<div class="cv-entry-left">
+<h4>Research Intern</h4>
+<span class="institution">Green Aerotechnics Research Institute of CQJTU</span>
+<br><small>Analyzed aircraft market structure, financing data, and supply chain metrics using MySQL and visual analysis tools.</small>
+</div>
+<div class="cv-entry-right">Jul. 2023 &ndash; Sept. 2023</div>
+</div>
+
+<div class="cv-entry">
+<div class="cv-entry-left">
+<h4>Intern &mdash; Department of Financing and Innovation</h4>
+<span class="institution">Sinolink Securities</span>
+<br><small>Analyzed patent-financial indicators, cleaned prospectus datasets, and supported credit scoring and solvency assessments.</small>
+</div>
+<div class="cv-entry-right">Jul. 2022 &ndash; Sept. 2022</div>
+</div>
+</div>
+
+<div class="cv-section">
+<div class="section-label"><span>Publications &amp; Conferences</span></div>
+
+Su, P., Yao, Q., & **Wu, X.** (2025). How does self-construal influence green product purchase in the digital era? The moderating role of advertising appeal. *Journal of Theoretical and Applied Electronic Commerce Research*, 20(4).
+
+**Wu, X.**, & Yao, Q. (2023). More independent, more emotional? The effect of self-construal on preference for green product advertising appeal. In *Proceedings of the China Marketing International Conference 2023*, Chengdu, China.
+
+China Marketing International Conference 2023. Environmental, social, and governance (ESG) and marketing. Chinese Scholar Marketing Association & Sichuan University, Chengdu, China.
+
+China Higher Education Marketing Research Association Academic Annual Conference and Doctoral Forum 2023. Chongqing, China.
+</div>
