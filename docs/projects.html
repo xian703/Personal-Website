@@ -259,13 +259,13 @@ $(document).ready(function () {
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>
-  <a href="https://github.com/xian703">GitHub</a>
+  <a href="https://github.com/xian703">&lt;i class="fab fa-github fa-lg"&gt;&lt;/i&gt;</a>
 </li>
 <li>
-  <a href="https://www.linkedin.com/in/xian-wu-b05426333/">LinkedIn</a>
+  <a href="https://www.linkedin.com/in/xian-wu-b05426333/">&lt;i class="fab fa-linkedin fa-lg"&gt;&lt;/i&gt;</a>
 </li>
 <li>
-  <a href="mailto:xwu389@emory.edu">Email</a>
+  <a href="mailto:xwu389@emory.edu">&lt;i class="fas fa-envelope fa-lg"&gt;&lt;/i&gt;</a>
 </li>
       </ul>
     </div><!--/.nav-collapse -->
@@ -281,99 +281,75 @@ $(document).ready(function () {
 </div>
 
 
-<p>Below are selected projects from my graduate research at Emory
-University. Each project addresses a real public health or clinical
-problem using modern statistical and machine learning methods.</p>
+<p>Below are selected projects from my graduate work at Emory
+University. Click the links to explore the code and full analysis.</p>
 <div class="section-label">
 <span>Graduate Projects</span>
 </div>
 <div class="projects-grid">
 <div class="project-card">
 <h3>
-HUMID Atlanta: High-Resolution Meteorological Exposure Modeling
+Heart Disease Risk Analysis
 </h3>
 <p>
-Integrated multi-source spatiotemporal datasets across 5 Atlanta metro
-counties (2014–2018), processing over 120,000 daily records at 1km
-resolution. Built a hybrid Bayesian geostatistical downscaler coupled
-with Random Forest to bias-correct temperature exposures using personal
-weather station observations as ground truth — enabling more precise
-environmental health studies.
+Investigated risk factors associated with heart disease using a large
+clinical dataset. Applied logistic regression and machine learning
+models to identify key predictors such as age, cholesterol, and blood
+pressure. Results were visualized in an interactive report to support
+evidence-based understanding of cardiovascular health patterns in the
+general population.
 </p>
 <div>
-<p><span class="tag">R</span> <span class="tag">Bayesian
-Geostatistics</span> <span class="tag">Spatial Analysis</span> <span
-class="tag">Random Forest</span></p>
+<p><span class="tag">R</span> <span class="tag">Logistic
+Regression</span> <span class="tag">Data Visualization</span> <span
+class="tag">Public Health</span></p>
 </div>
 <p><br>
-<a class="btn-link" href="https://github.com/xian703/humid-atlanta" target="_blank">
+<a class="btn-link" href="https://github.com/xian703/550_Final_Project_Heart_Disease" target="_blank">
 <i class="fab fa-github"></i> View on GitHub </a></p>
 </div>
 <div class="project-card">
 <h3>
-ED Benchmark: Hospitalization Outcome Analysis Using EHR Data
+Reproducible Data Analysis Pipeline
 </h3>
 <p>
-Built reproducible data pipelines for extracting, mapping, and
-temporally aligning ICD codes across patient encounters in a large EHR
-dataset. Applied logistic regression and generalized estimating
-equations (GEE) to identify preadmission diagnosis patterns associated
-with adverse inpatient outcomes — supporting evidence-based clinical
-decision-making.
+Built a fully reproducible data analysis pipeline using R Markdown,
+covering data cleaning, exploratory analysis, and statistical modeling.
+The project emphasized best practices in computational reproducibility,
+including version control and automated report generation — skills
+essential for transparent and replicable public health research.
 </p>
 <div>
-<p><span class="tag">R</span> <span class="tag">GEE</span> <span
-class="tag">EHR Data</span> <span class="tag">Logistic
-Regression</span></p>
+<p><span class="tag">R</span> <span class="tag">R Markdown</span> <span
+class="tag">Reproducible Research</span> <span class="tag">Data
+Wrangling</span></p>
 </div>
 <p><br>
-<a class="btn-link" href="https://github.com/xian703/ed-benchmark" target="_blank">
-<i class="fab fa-github"></i> View on GitHub </a></p>
-</div>
-<div class="project-card">
-<h3>
-Co-occurring Token Framework for ICU Risk Monitoring &amp; ARDS
-Prediction
-</h3>
-<p>
-Contributed to a deep learning framework for predicting ARDS risk in ICU
-patients using longitudinal EHR data. Engineered temporal features from
-multi-site ICU datasets, implemented sequence construction and
-representation learning components in PyTorch, and evaluated model
-interpretability through token attention patterns and stability
-diagnostics.
-</p>
-<div>
-<p><span class="tag">Python</span> <span class="tag">PyTorch</span>
-<span class="tag">ICU / EHR</span> <span class="tag">Deep
-Learning</span></p>
-</div>
-<p><br>
-<a class="btn-link" href="https://github.com/xian703/icu-ards" target="_blank">
-<i class="fab fa-github"></i> View on GitHub </a></p>
-</div>
-<div class="project-card">
-<h3>
-Weather &amp; Wildfire Prediction Using BP Neural Network and ARMA
-</h3>
-<p>
-Collected over 280,000 climate records from Chongqing, China and built
-BP neural networks alongside ARIMA time-series models in Python and
-MATLAB to forecast weather and wildfire risk. Achieved over 90% weather
-prediction accuracy and successfully flagged the 2022 wildfire risk
-events using meteorological fire indices (FFMC, DMC, ISI, BUI).
-</p>
-<div>
-<p><span class="tag">Python</span> <span class="tag">MATLAB</span> <span
-class="tag">Neural Networks</span> <span class="tag">Time
-Series</span></p>
-</div>
-<p><br>
-<a class="btn-link" href="https://github.com/xian703/wildfire-prediction" target="_blank">
+<a class="btn-link" href="https://github.com/xian703/Midterm_project_Data550" target="_blank">
 <i class="fab fa-github"></i> View on GitHub </a></p>
 </div>
 </div>
 
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  var navLinks = document.querySelectorAll(".navbar-nav > li > a");
+  navLinks.forEach(function(link) {
+    var href = link.getAttribute("href") || "";
+    var text = link.textContent.trim();
+
+    if (href.includes("github.com")) {
+      link.innerHTML = '<i class="fab fa-github fa-lg" title="GitHub"></i>';
+      link.setAttribute("aria-label", "GitHub");
+    } else if (href.includes("linkedin.com")) {
+      link.innerHTML = '<i class="fab fa-linkedin fa-lg" title="LinkedIn"></i>';
+      link.setAttribute("aria-label", "LinkedIn");
+    } else if (href.includes("mailto:")) {
+      link.innerHTML = '<i class="fas fa-envelope fa-lg" title="Email"></i>';
+      link.setAttribute("aria-label", "Email");
+    }
+  });
+});
+</script>
 
 
 

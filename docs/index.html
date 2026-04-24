@@ -259,13 +259,13 @@ $(document).ready(function () {
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>
-  <a href="https://github.com/xian703">GitHub</a>
+  <a href="https://github.com/xian703">&lt;i class="fab fa-github fa-lg"&gt;&lt;/i&gt;</a>
 </li>
 <li>
-  <a href="https://www.linkedin.com/in/xian-wu-b05426333/">LinkedIn</a>
+  <a href="https://www.linkedin.com/in/xian-wu-b05426333/">&lt;i class="fab fa-linkedin fa-lg"&gt;&lt;/i&gt;</a>
 </li>
 <li>
-  <a href="mailto:xwu389@emory.edu">Email</a>
+  <a href="mailto:xwu389@emory.edu">&lt;i class="fas fa-envelope fa-lg"&gt;&lt;/i&gt;</a>
 </li>
       </ul>
     </div><!--/.nav-collapse -->
@@ -362,6 +362,26 @@ Theoretical and Applied Electronic Commerce Research</em></li>
 University, Rollins School of Public Health</li>
 </ul>
 
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  var navLinks = document.querySelectorAll(".navbar-nav > li > a");
+  navLinks.forEach(function(link) {
+    var href = link.getAttribute("href") || "";
+    var text = link.textContent.trim();
+
+    if (href.includes("github.com")) {
+      link.innerHTML = '<i class="fab fa-github fa-lg" title="GitHub"></i>';
+      link.setAttribute("aria-label", "GitHub");
+    } else if (href.includes("linkedin.com")) {
+      link.innerHTML = '<i class="fab fa-linkedin fa-lg" title="LinkedIn"></i>';
+      link.setAttribute("aria-label", "LinkedIn");
+    } else if (href.includes("mailto:")) {
+      link.innerHTML = '<i class="fas fa-envelope fa-lg" title="Email"></i>';
+      link.setAttribute("aria-label", "Email");
+    }
+  });
+});
+</script>
 
 
 

@@ -10,11 +10,11 @@ navbar:
     - text: "CV"
       href: cv.html
   right:
-    - text: "GitHub"
+    - text: '<i class="fab fa-github fa-lg"></i>'
       href: "https://github.com/xian703"
-    - text: "LinkedIn"
+    - text: '<i class="fab fa-linkedin fa-lg"></i>'
       href: "https://www.linkedin.com/in/xian-wu-b05426333/"
-    - text: "Email"
+    - text: '<i class="fas fa-envelope fa-lg"></i>'
       href: "mailto:xwu389@emory.edu"
 
 output:
@@ -23,3 +23,4 @@ output:
     css: style.css
     includes:
       in_header: header.html
+      after_body: after_body.html

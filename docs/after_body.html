@@ -1,0 +1,20 @@
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  var navLinks = document.querySelectorAll(".navbar-nav > li > a");
+  navLinks.forEach(function(link) {
+    var href = link.getAttribute("href") || "";
+    var text = link.textContent.trim();
+
+    if (href.includes("github.com")) {
+      link.innerHTML = '<i class="fab fa-github fa-lg" title="GitHub"></i>';
+      link.setAttribute("aria-label", "GitHub");
+    } else if (href.includes("linkedin.com")) {
+      link.innerHTML = '<i class="fab fa-linkedin fa-lg" title="LinkedIn"></i>';
+      link.setAttribute("aria-label", "LinkedIn");
+    } else if (href.includes("mailto:")) {
+      link.innerHTML = '<i class="fas fa-envelope fa-lg" title="Email"></i>';
+      link.setAttribute("aria-label", "Email");
+    }
+  });
+});
+</script>
