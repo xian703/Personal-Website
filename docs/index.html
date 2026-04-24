@@ -36,6 +36,24 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+<script>
+window.addEventListener("load", function() {
+  var links = document.querySelectorAll(".navbar-nav a");
+  links.forEach(function(a) {
+    var href = a.getAttribute("href") || "";
+    if (href.indexOf("github.com") !== -1) {
+      a.innerHTML = '<i class="fab fa-github fa-lg"></i>';
+      a.setAttribute("title", "GitHub");
+    } else if (href.indexOf("linkedin.com") !== -1) {
+      a.innerHTML = '<i class="fab fa-linkedin fa-lg"></i>';
+      a.setAttribute("title", "LinkedIn");
+    } else if (href.indexOf("mailto:") !== -1) {
+      a.innerHTML = '<i class="fas fa-envelope fa-lg"></i>';
+      a.setAttribute("title", "Email");
+    }
+  });
+});
+</script>
 
 <style type="text/css">
   code{white-space: pre-wrap;}
