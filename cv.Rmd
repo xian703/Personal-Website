@@ -1,12 +1,14 @@
 ---
-title: "Curriculum Vitae"
+title: ""
 ---
 
-<p style="color:#6c757d; margin-bottom:2rem;">
-Download a PDF version:
-<a href="files/cv.pdf" target="_blank"><i class="fas fa-file-pdf"></i> cv.pdf</a>
-&nbsp;&middot;&nbsp; xwu389@emory.edu &nbsp;&middot;&nbsp; +1 (470) 298-5725
+<div style="padding: 2rem 0 1rem;">
+<h1 style="font-family:'DM Serif Display',serif; font-size:2.2rem; margin-bottom:0.3rem;">Xian Wu</h1>
+<p style="color:#6c757d; font-size:0.95rem; margin-bottom:1.5rem;">
+<a href="files/CV_XianWu.pdf" target="_blank" style="color:#2a6496;"><i class="fas fa-file-pdf"></i> Download PDF</a>
+&nbsp;&middot;&nbsp; xian00836@gmail.com &nbsp;&middot;&nbsp; +1 (470) 298-5725
 </p>
+</div>
 
 <div class="cv-section">
 <div class="section-label"><span>Education</span></div>
@@ -122,11 +124,11 @@ Download a PDF version:
 <div class="cv-section">
 <div class="section-label"><span>Publications &amp; Conferences</span></div>
 
-Su, P., Yao, Q., & **Wu, X.** (2025). How does self-construal influence green product purchase in the digital era? The moderating role of advertising appeal. *Journal of Theoretical and Applied Electronic Commerce Research*, 20(4).
+Su, P., Yao, Q., & **Wu, X.** (2025). How does self-construal influence green product purchase in the digital era? *Journal of Theoretical and Applied Electronic Commerce Research*, 20(4).
 
 **Wu, X.**, & Yao, Q. (2023). More independent, more emotional? The effect of self-construal on preference for green product advertising appeal. In *Proceedings of the China Marketing International Conference 2023*, Chengdu, China.
 
-China Marketing International Conference 2023. Environmental, social, and governance (ESG) and marketing. Chinese Scholar Marketing Association & Sichuan University, Chengdu, China.
+China Marketing International Conference 2023. ESG and marketing. Chinese Scholar Marketing Association & Sichuan University, Chengdu, China.
 
 China Higher Education Marketing Research Association Academic Annual Conference and Doctoral Forum 2023. Chongqing, China.
 </div>

@@ -15,7 +15,7 @@ navbar:
     - text: '<i class="fab fa-linkedin fa-lg"></i>'
       href: "https://www.linkedin.com/in/xian-wu-b05426333/"
     - text: '<i class="fas fa-envelope fa-lg"></i>'
-      href: "mailto:xwu389@emory.edu"
+      href: "mailto:xian00836@gmail.com"
 
 output:
   html_document:
